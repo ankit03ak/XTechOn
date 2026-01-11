@@ -103,7 +103,7 @@ xtechon/
    ```env
    MONGODB_URI=your_mongodb_connection_string_here
    JWT_SECRET=your_super_secret_jwt_key_here
-   PORT=5000
+   PORT=8080
    NODE_ENV=development
    ```
 
@@ -117,7 +117,7 @@ xtechon/
    ```bash
    npm run dev
    ```
-   Backend will run on `http://localhost:5000`
+   Backend will run on `http://localhost:8080`
 
 ### Frontend Setup
 
@@ -139,7 +139,7 @@ xtechon/
 4. **Configure environment variables**
    Edit `.env.local` file:
    ```env
-   NEXT_PUBLIC_API_URL=http://localhost:5000/api
+   NEXT_PUBLIC_API_URL=http://localhost:8080/api
    ```
 
 5. **Start the development server**
